@@ -5,6 +5,9 @@
     font-weight: 500;
 }
 
+#link {
+    text-align: center;
+}
 .recipe-title,
 .recipe-text
 {
@@ -12,12 +15,22 @@
     background-color: hsl(120, 98%, 76%)
 }
 
-.recipe-title {
+.recipe-title, 
+.recipe-subheader {
     font-family: cursive;
-    font-size: 38px;
     text-align: center;
+}
+
+.recipe-title {
+    font-size: 38px;
 }
 
 .recipe-text {
     font-size: 19px;
+}
+
+.recipe-subheader {
+    color: hsl(120, 98%, 76%);
+    background-color: #e96161;
+
 }
